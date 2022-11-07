@@ -50,9 +50,9 @@ app.get('/data',(req,res)=>{
     .catch(e=>console.log(e))
 })
 
-const port = process.env.PORT || 5999
 
 
-app.listen(port, ()=>{
+
+app.listen(4999, ()=>{
     console.log("The site is running")
 })
